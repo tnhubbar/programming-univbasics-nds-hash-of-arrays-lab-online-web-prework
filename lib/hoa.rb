@@ -9,9 +9,7 @@ def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
   
-  BASE_HOA[:chipmunks].push("Dave")
-  BASE_HOA[:third_earthers].push("Snarf")
-  BASE_HOA[:jetsons].push("Astro")
+  BASE_HOA[show].push(name)
 
 
 end
